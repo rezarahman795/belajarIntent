@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move"
+        android:text="@string/pindah_halaman"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_with_data"
+        android:text="@string/move_with_data"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_with_object"
+        android:text="@string/move_with_object"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dial"
+        android:text="@string/dial_number"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_moveResult"
+        android:text="@string/move_with_result"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_from_activity"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:id="@+id/result_tv"
+        />
+
+
+</LinearLayout>
